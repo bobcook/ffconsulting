@@ -6,3 +6,7 @@ development:
   database: db/development.sqlite3
   pool: 5
   timeout: 5000
+production:
+  adapter: pg
+  database: db/production.pg
+  
