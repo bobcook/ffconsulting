@@ -1,6 +1,6 @@
 Storyitr8::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-
+  config.app_domain = 'storyitr8.com'
   # Code is not reloaded between requests.
   config.cache_classes = true
 
@@ -77,7 +77,7 @@ Storyitr8::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-  
+
   # Mailer
   config.action_mailer.raise_delivery_errors = false
   config.action_mailer.default_url_options = { :host => ENV["DOMAIN"] }
