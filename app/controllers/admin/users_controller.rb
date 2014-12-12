@@ -40,6 +40,7 @@ class Admin::UsersController < Admin::BaseController
       flash[:alert] = "#{old_email} couldn't be updated."
       render :edit
     end
+  end
 
   def finish_signup
     # authorize! :update, @user
