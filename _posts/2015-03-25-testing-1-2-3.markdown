@@ -1,6 +1,0 @@
----
-layout: post
-title: "testing 1..2..3"
-date: 2015-03-25T18:07:45-06:00
----
-Now is the time for all good men to come to the aid of their country.
