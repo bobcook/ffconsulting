@@ -1,6 +1,6 @@
-Storyitr8::Application.configure do
+Ffconsulting::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-  config.app_domain = 'storyitr8.com'
+  config.app_domain = 'ffconsultinggroup.com'
   # Code is not reloaded between requests.
   config.cache_classes = true
 

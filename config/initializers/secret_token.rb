@@ -22,4 +22,4 @@ def secure_token
   end
 end
 
-Storyitr8::Application.config.secret_key_base = secure_token
+Ffconsulting::Application.config.secret_key_base = secure_token

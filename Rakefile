@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Storyitr8::Application.load_tasks
+Ffconsulting::Application.load_tasks

@@ -10,6 +10,7 @@ gem 'jquery-rails', '3.1.2'
 gem 'turbolinks', '2.5.2'
 gem 'jbuilder', '2.2.5'
 gem 'bcrypt', '3.1.9'
+gem 'octopress', '~> 3.0.0.rc'
 
 # Necessary for Windows OS (won't install on *nix systems)
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
@@ -48,17 +49,9 @@ gem 'omniauth-github'
 # Redcarpet: https://github.com/vmg/redcarpet
 gem 'redcarpet', '3.2.0'
 
-# Rails 12factor for Heroku: https://github.com/heroku/rails_12factor
-group :production do
-  gem 'rails_12factor'
-end
-
-# PostgreSQL gem for Heroku
-group :production do
-  gem 'pg'
-end
-
 # Unicorn: http://unicorn.bogomips.org
 group :production do
   gem 'unicorn'
+  gem 'pg'
+  gem 'rails_12factor'
 end
