@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FF Consulting Group business communications improvment">
+  <meta name="author" content="Forrest Fackrell">
   <title><%= @title || "FF Consulting Group" %></title>
   <%= favicon_link_tag 'favicon.ico' %>
   <%= favicon_link_tag 'apple-touch-icon.png', rel: 'apple-touch-icon', type: 'image/png' %>
@@ -9,28 +13,33 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-  <div id="wrap">
-    <header>
-      <%= render 'layouts/navigation' %>
-    </header>
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-sm-6 col-sm-offset-3 text-center">
-          <%= render 'layouts/messages' %>
+<body id="page-top">
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="#page-top">FF Consulting Group</a>
+      </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <%= render 'layouts/navigation' %>
         </div>
       </div>
+  </nav>
 
-      <div class="row">
-        <div class="col-sm-12">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3 text-center">
+            <%= render 'layouts/messages' %>
+          </div>
+        </div>
+
           <%= yield %>
-        </div>
+
       </div>
-
     </div>
-  </div>
-
 </body>
 </html>

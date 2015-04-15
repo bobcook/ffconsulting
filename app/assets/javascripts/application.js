@@ -13,7 +13,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require bootstrap 
+//= require bootstrap
 //= require analytics
 //= require common
-
+//= require cbpAnimatedHeader
+//= require classie
+//= require creative
+//= require wow.min
