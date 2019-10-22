@@ -37,7 +37,7 @@ group :development, :test do
 end
 
 # Devise: https://github.com/plataformatec/devise
-gem 'devise', '3.4.1'
+gem 'devise', '4.7.1'
 gem 'omniauth'
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
