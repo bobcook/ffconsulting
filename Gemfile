@@ -24,7 +24,7 @@ gem 'friendly_id', '5.0.4'
 gem 'font-awesome-sass', '4.2.2'
 
 # Bootstrap 3: https://github.com/twbs/bootstrap-sass
-gem 'bootstrap-sass', '3.3.1.0'
+gem 'bootstrap-sass', '3.4.1'
 
 # Figaro: https://github.com/laserlemon/figaro
 group :development, :test do
