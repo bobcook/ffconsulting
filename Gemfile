@@ -46,7 +46,7 @@ gem 'omniauth-google'
 gem 'omniauth-github'
 
 # Redcarpet: https://github.com/vmg/redcarpet
-gem 'redcarpet', '3.2.0'
+gem 'redcarpet', '3.5.1'
 
 # Unicorn: http://unicorn.bogomips.org
 group :production do
